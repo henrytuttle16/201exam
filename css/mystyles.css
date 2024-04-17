@@ -1,0 +1,66 @@
+body {
+    background: url(../assets/img/cbg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-of-page {
+    text-align: center;
+    height: 10%;
+    width: 50%;
+    background-color: rgb(240, 248, 255);
+    margin: auto;
+    padding: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.middle-of-page-left {
+    background-color: rgb(240, 248, 255, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 75, 254);
+    width: 45%;
+    margin: auto;
+    padding: 5px;
+}
+
+.middle-of-page-right {
+    background-color: rgb(240, 248, 255, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 75, 254);
+    width: 45%;
+    margin-right: auto;
+
+    padding: 5px;
+}
+
+.lower-of-page {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border: 5px solid aliceblue;
+}
+
+img{
+    width: 400px;
+}
+
+p{
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    border: 5px;
+}
+
+a{
+    color: rgb(75, 75, 254);
+}
+
+.viz{
+    align-content: center;
+    align-items: center;
+}
