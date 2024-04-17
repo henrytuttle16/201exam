@@ -5,7 +5,6 @@ body {
 }
 
 .top-of-page {
-    position: static;
     text-align: center;
     height: 10%;
     width: 50%;
@@ -20,8 +19,7 @@ body {
 }
 
 .middle-of-page-left {
-    position: relative;
-    left: 55px;
+    margin: auto;
     background-color: rgb(240, 248, 255, 0.8);
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(75, 75, 254);
@@ -36,8 +34,6 @@ body {
     width: 45%;
     margin-right: auto;
     padding: 5px;
-    position: relative;
-    left: 55px;
 }
 
 .lower-of-page {
@@ -66,4 +62,11 @@ a{
 .viz{
     align-content: center;
     align-items: center;
+}
+
+.bottom-of-page{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    background-color: rgb(255, 255, 255, 0.7);
 }
